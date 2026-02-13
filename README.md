@@ -1,8 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anti-Gravity Todo
 
-## Getting Started
+重力から解放された、思考のプレイグラウンド。
+Next.js (App Router), Tailwind CSS, Framer Motion を使用した、美しくモダンなTodoアプリケーションです。
 
-First, run the development server:
+## ✨ 特徴
+
+-   **反重力デザイン (Anti-Gravity Design)**:
+    -   深くぼかした背景と半透明のレイヤーによる「浮遊感」
+    -   グラスモーフィズム (Glassmorphism) を徹底したUI
+    -   角を大きく丸めた (Rounded Corners) 有機的な形状
+-   **滑らかなアニメーション**:
+    -   Framer Motion によるふわっとした出現・消失演出
+    -   ホバー時の心地よいフィードバック
+-   **AI要約機能 (Mock)**:
+    -   入力されたアイデアをAIが要約してリストに追加する体験（現在はUIのみ実装）
+
+## 🛠 使用技術
+
+-   **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Animation**: [Framer Motion](https://www.framer.com/motion/)
+-   **Language**: TypeScript
+
+## 🚀 始め方
+
+開発サーバーを起動して、アプリケーションを確認できます。
 
 ```bash
 npm run dev
@@ -10,28 +32,16 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてください。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 プロジェクト構造
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   `src/app`: アプリケーションのページとレイアウト
+-   `src/components`: 再利用可能なUIコンポーネント (InputModalなど)
+-   `public`: 静的アセット
 
-## Learn More
+## 🎨 デザインコンセプト
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Todo
+「重力からの解放」をテーマに、暗めの背景に発光するようなグラデーションと、磨りガラスのような質感を組み合わせています。ユーザーが思考を妨げられることなく、アイデアを自由に広げられる空間を目指しました。
